@@ -7,7 +7,7 @@ All was written in way that
 
 ### CSV Library
 
-Simple CSV library (~80 lines) was written from scrath. It is stateless and extension based to work well with LINQ syntax. Solution for soccer library in it would be just 1 line of code
+Simple CSV library (~80 lines) was written from scratch. It is stateless and extension based to work well with LINQ syntax. Solution for soccer library in it would be just 1 line of code
 
 ```c#
     string result = args[0]
@@ -59,3 +59,8 @@ public class SocerTeamData
 
 Contains 3 properties that will be mapped from file described via annotation and one invisible for library.
 
+Then just use model in parser
+
+```c#
+ csv.ToModel<SocerTeamData>(new string[] { "  ", "-" })
+```
