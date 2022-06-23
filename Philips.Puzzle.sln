@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Philips.Puzzle.Soccer", "Philips.Puzzle\Philips.Puzzle.Soccer.csproj", "{01A10D63-B062-4ED2-89B8-9BA6D31EBCAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Philips.Puzzle.Core", "Philips.Puzzle.Core\Philips.Puzzle.Core.csproj", "{68C5E288-BDE7-4B37-BC12-8146315C3E49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Philips.Puzzle.Core.Tests", "Philips.Puzzle.Core.Tests\Philips.Puzzle.Core.Tests.csproj", "{71B993CD-E3C7-4E65-8091-CC1D0E31E016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Philips.Puzzle.Weather", "Philips.Puzzle.Weather\Philips.Puzzle.Weather.csproj", "{2064950B-7430-4EB2-8037-087FC6BAC529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{53EC364D-72EA-4D17-8083-158BDFC72F9F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01A10D63-B062-4ED2-89B8-9BA6D31EBCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A10D63-B062-4ED2-89B8-9BA6D31EBCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A10D63-B062-4ED2-89B8-9BA6D31EBCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A10D63-B062-4ED2-89B8-9BA6D31EBCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C5E288-BDE7-4B37-BC12-8146315C3E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C5E288-BDE7-4B37-BC12-8146315C3E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C5E288-BDE7-4B37-BC12-8146315C3E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C5E288-BDE7-4B37-BC12-8146315C3E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B993CD-E3C7-4E65-8091-CC1D0E31E016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B993CD-E3C7-4E65-8091-CC1D0E31E016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B993CD-E3C7-4E65-8091-CC1D0E31E016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B993CD-E3C7-4E65-8091-CC1D0E31E016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2064950B-7430-4EB2-8037-087FC6BAC529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2064950B-7430-4EB2-8037-087FC6BAC529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2064950B-7430-4EB2-8037-087FC6BAC529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2064950B-7430-4EB2-8037-087FC6BAC529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0801115E-3721-465D-92B3-9ECA06B61C91}
+	EndGlobalSection
+EndGlobal
