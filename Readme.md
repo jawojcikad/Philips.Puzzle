@@ -7,7 +7,7 @@ All was written in way that
 
 ### CSV Library
 
-Simple CSV library (~80 lines) was written from scratch. It is stateless and extension based to work well with LINQ syntax. Solution for soccer library in it would be just 1 line of code
+Simple CSV library (~80 lines) was written from scratch. It is stateless and extension based to work well with LINQ syntax. Solution for soccer puzzle in library in it would be just 1 line of code
 
 ```c#
     string result = args[0]
